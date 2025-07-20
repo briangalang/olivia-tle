@@ -4,17 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+
+    <!-- Google Fonts for typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="/css/index.css"> 
-    <link rel="stylesheet" href="/css/aboutMe.css"> 
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="/pages/aboutMe.html">About Me</a>
-            <a href="/pages/contact.html">Contact</a>
-            <a href="/pages/gallery.html">Gallery</a>
-            <a href="/pages/resume.html">Resume</a>
-        </nav>
+    <!-- Header/Navigation Section -->
+    <header class="main-header">
+        <div class="container">
+            <nav class="main-nav">
+                <!-- Logo/Name -->
+                <a href="../index.html" class="logo">
+                    <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 0l-3 3a1 1 0 001.414 1.414L9 9.414V13a1 1 0 102 0V9.414l1.293 1.293a1 1 0 001.414-1.414z" clip-rule="evenodd" />
+                    </svg>
+                    Jan Olivia
+                </a>
+                <!-- Navigation Links -->
+                <div class="nav-links">
+                    <a href="/pages/aboutMe.html">About me</a>
+                    <a href="/pages/contact.html">Contact</a>
+                    <a href="/pages/gallery.html">Gallery</a>
+                    <a href="/pages/resume.html">Resume</a>
+                    <a href="#" class="get-in-touch-btn">Get in touch!</a>
+                </div>
+                <!-- Mobile Menu Button -->
+                <div class="mobile-menu-button">
+                    <button>
+                        <svg stroke="currentColor" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                    </button>
+                </div>
+            </nav>
+        </div>
     </header>
 
     <main> <h1>About Me</h1>
